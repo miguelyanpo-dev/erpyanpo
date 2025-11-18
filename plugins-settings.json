@@ -1,0 +1,51 @@
+{
+    "832d6f7a-42c3-43f1-a3ce-9a678272f811": {
+        "id": "217d5f7f-f8f0-4bcd-8635-0886f74cf021",
+        "name": "Date",
+        "designId": "606fc9f7-5f19-4b24-a2fd-6eadd56970c8",
+        "pluginId": "832d6f7a-42c3-43f1-a3ce-9a678272f811",
+        "publicData": {}
+    },
+    "9c40819b-4a8f-468f-9ba5-4b9699f3361f": {
+        "id": "07189725-dddc-4c3b-b388-7716ae012468",
+        "name": "Charts",
+        "designId": "606fc9f7-5f19-4b24-a2fd-6eadd56970c8",
+        "pluginId": "9c40819b-4a8f-468f-9ba5-4b9699f3361f",
+        "publicData": {}
+    },
+    "66a79c98-70e7-4bc4-8859-20776b024ec2": {
+        "id": "8612f6fc-3078-4d58-9227-f86d382864ea",
+        "name": "PWA",
+        "designId": "606fc9f7-5f19-4b24-a2fd-6eadd56970c8",
+        "pluginId": "66a79c98-70e7-4bc4-8859-20776b024ec2",
+        "publicData": {}
+    },
+    "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
+        "id": "cee96039-b37a-40eb-98d1-1076d51497e2",
+        "name": "REST API",
+        "designId": "606fc9f7-5f19-4b24-a2fd-6eadd56970c8",
+        "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
+        "publicData": {}
+    },
+    "69d4a5bb-09a3-4f3d-a94e-667c21c057eb": {
+        "id": "8d222de1-429b-468e-aca7-5885553b7ee6",
+        "name": "NPM",
+        "designId": "606fc9f7-5f19-4b24-a2fd-6eadd56970c8",
+        "pluginId": "69d4a5bb-09a3-4f3d-a94e-667c21c057eb",
+        "publicData": {}
+    },
+    "e93a2dfd-9b19-473e-b445-c666fed4e14a": {
+        "id": "2cb9cabf-fb5e-4d04-976a-94c717311dcf",
+        "name": "Auth0",
+        "designId": "606fc9f7-5f19-4b24-a2fd-6eadd56970c8",
+        "pluginId": "e93a2dfd-9b19-473e-b445-c666fed4e14a",
+        "publicData": {
+            "domain": "dev-adr8p2ix6x17esje.eu.auth0.com",
+            "M2MClientId": "iuVqKi0uc46tCcx0nlRqlvkqatNee99r",
+            "SPAClientId": "YWAZ566FB813KHUy5C9MvCG4HXqk0YlO",
+            "afterSignInPageId": "6a9661d1-e38e-4421-9e3b-7c736b4352c8",
+            "afterForbiddenPageId": "6a9661d1-e38e-4421-9e3b-7c736b4352c8",
+            "afterNotSignInPageId": "9f9af3b0-fded-4d4d-854b-31e28e8d9fb3"
+        }
+    }
+}
