@@ -1,4 +1,11 @@
 {
+    "97e7b1ae-f88a-4697-849c-ee56ab49bb48": {
+        "id": "50b5a961-81fa-4bd5-9cbc-bc4e2dc02045",
+        "name": "JavaScript",
+        "designId": "606fc9f7-5f19-4b24-a2fd-6eadd56970c8",
+        "pluginId": "97e7b1ae-f88a-4697-849c-ee56ab49bb48",
+        "publicData": {}
+    },
     "832d6f7a-42c3-43f1-a3ce-9a678272f811": {
         "id": "217d5f7f-f8f0-4bcd-8635-0886f74cf021",
         "name": "Date",
