@@ -54,5 +54,33 @@
             "afterForbiddenPageId": "6a9661d1-e38e-4421-9e3b-7c736b4352c8",
             "afterNotSignInPageId": "9f9af3b0-fded-4d4d-854b-31e28e8d9fb3"
         }
+    },
+    "1fa0dd68-5069-436c-9a7d-3b54c340f1fa": {
+        "id": "cc0baed5-a185-4ac7-bd68-e3a802f503d6",
+        "name": "Supabase Auth",
+        "designId": "606fc9f7-5f19-4b24-a2fd-6eadd56970c8",
+        "pluginId": "1fa0dd68-5069-436c-9a7d-3b54c340f1fa",
+        "publicData": {
+            "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1meXNreWJldGJ3Y2h0dmZzYnlpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQxODgyNjUsImV4cCI6MjA3OTc2NDI2NX0.90DjSpWmU50xe4Gmqlov-uWXwcqpq3H3HVGY2wAW5ms",
+            "projectUrl": "https://mfyskybetbwchtvfsbyi.supabase.co",
+            "customDomain": "",
+            "environments": {
+                "production": {
+                    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1meXNreWJldGJ3Y2h0dmZzYnlpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQxODgyNjUsImV4cCI6MjA3OTc2NDI2NX0.90DjSpWmU50xe4Gmqlov-uWXwcqpq3H3HVGY2wAW5ms",
+                    "branch": null,
+                    "branchSlug": null,
+                    "projectUrl": "https://mfyskybetbwchtvfsbyi.supabase.co",
+                    "customDomain": "",
+                    "baseProjectRef": "mfyskybetbwchtvfsbyi"
+                }
+            }
+        }
+    },
+    "fdf6b667-9515-4086-87ef-6042fc6f20fb": {
+        "id": "fa8965ef-8e3c-48d0-880b-1841aa5cf954",
+        "name": "Google Sheets",
+        "designId": "606fc9f7-5f19-4b24-a2fd-6eadd56970c8",
+        "pluginId": "fdf6b667-9515-4086-87ef-6042fc6f20fb",
+        "publicData": {}
     }
 }
