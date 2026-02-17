@@ -27,6 +27,7 @@ import wwobjectaa27b26f06864c2998c58217044045b7 from '@/components/elements/elem
 import wwobject3a7d637912d3438798ffb332bb492a63 from '@/components/elements/element-3a7d6379-12d3-4387-98ff-b332bb492a63/ww-config.js';
 import wwobjectb783dc65d5284f748c14e27c934c39b1 from '@/components/elements/element-b783dc65-d528-4f74-8c14-e27c934c39b1/ww-config.js';
 import wwobjecte5e2f36738d341fca9387d221dd4691b from '@/components/elements/element-e5e2f367-38d3-41fc-a938-7d221dd4691b/ww-config.js';
+import wwobject8aaf365113514aea8b385d10ebc7fb69 from '@/components/elements/element-8aaf3651-1351-4aea-8b38-5d10ebc7fb69/ww-config.js';
 import wwobject53401515b6944c79a88dabeecb1de562 from '@/components/elements/element-53401515-b694-4c79-a88d-abeecb1de562/ww-config.js';
 import wwobject18998884a7574a8780fe44f129cf0962 from '@/components/elements/element-18998884-a757-4a87-80fe-44f129cf0962/ww-config.js';
 import wwobject5a88036f22ea4f8db4a5bc226ef95061 from '@/components/elements/element-5a88036f-22ea-4f8d-b4a5-bc226ef95061/ww-config.js';
@@ -80,6 +81,7 @@ export const useComponentBasesStore = defineStore('componentBases', () => {
 'wwobject-3a7d6379-12d3-4387-98ff-b332bb492a63': getInheritedConfiguration({ ...wwobject3a7d637912d3438798ffb332bb492a63, name: 'wwobject-3a7d6379-12d3-4387-98ff-b332bb492a63' }),
 'wwobject-b783dc65-d528-4f74-8c14-e27c934c39b1': getInheritedConfiguration({ ...wwobjectb783dc65d5284f748c14e27c934c39b1, name: 'wwobject-b783dc65-d528-4f74-8c14-e27c934c39b1' }),
 'wwobject-e5e2f367-38d3-41fc-a938-7d221dd4691b': getInheritedConfiguration({ ...wwobjecte5e2f36738d341fca9387d221dd4691b, name: 'wwobject-e5e2f367-38d3-41fc-a938-7d221dd4691b' }),
+'wwobject-8aaf3651-1351-4aea-8b38-5d10ebc7fb69': getInheritedConfiguration({ ...wwobject8aaf365113514aea8b385d10ebc7fb69, name: 'wwobject-8aaf3651-1351-4aea-8b38-5d10ebc7fb69' }),
 'wwobject-53401515-b694-4c79-a88d-abeecb1de562': getInheritedConfiguration({ ...wwobject53401515b6944c79a88dabeecb1de562, name: 'wwobject-53401515-b694-4c79-a88d-abeecb1de562' }),
 'wwobject-18998884-a757-4a87-80fe-44f129cf0962': getInheritedConfiguration({ ...wwobject18998884a7574a8780fe44f129cf0962, name: 'wwobject-18998884-a757-4a87-80fe-44f129cf0962' }),
 'wwobject-5a88036f-22ea-4f8d-b4a5-bc226ef95061': getInheritedConfiguration({ ...wwobject5a88036f22ea4f8db4a5bc226ef95061, name: 'wwobject-5a88036f-22ea-4f8d-b4a5-bc226ef95061' }),
