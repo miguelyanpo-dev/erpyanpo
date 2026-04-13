@@ -112,7 +112,9 @@ export default {
         /* wwFront:end */
     },
     removeCookieSession() {
+        /* wwFront:start */
         window.vm.config.globalProperties.$cookie.removeCookie('session');
+        /* wwFront:end */
         wwLib.wwVariable.updateValue(`${this.id}-accessToken`, null);
     },
     async setCookieSession(token = null) {
