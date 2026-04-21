@@ -152,13 +152,10 @@ export default {
             metadata: (metadata || []).reduce((obj, item) => ({ ...obj, [item.key]: item.value }), {}),
         };
         /* wwFront:start */
-        const websiteId = wwLib.wwWebsiteData.getInfo().id;
-        await axios.patch(
-            `//${websiteId}.${wwLib.wwApiRequests._getPreviewUrl()}/ww/settings/${
-                this.settings.id
-            }/auth0/users/current`,
-            { accessToken: this.accessToken, data }
-        );
+        await axios.patch(`${window.location.origin}/ww/settings/${this.settings.id}/auth0/users/current`, {
+            accessToken: this.accessToken,
+            data,
+        });
         /* wwFront:end */
         await wwLib.wwPlugins.auth0.client.getTokenSilently({ cacheMode: 'off' });
         const user = await this.client.getUser();
@@ -170,13 +167,10 @@ export default {
     async updateUserEmail({ email }) {
         const data = { email };
         /* wwFront:start */
-        const websiteId = wwLib.wwWebsiteData.getInfo().id;
-        await axios.patch(
-            `//${websiteId}.${wwLib.wwApiRequests._getPreviewUrl()}/ww/settings/${
-                this.settings.id
-            }/auth0/users/current`,
-            { accessToken: this.accessToken, data }
-        );
+        await axios.patch(`${window.location.origin}/ww/settings/${this.settings.id}/auth0/users/current`, {
+            accessToken: this.accessToken,
+            data,
+        });
         /* wwFront:end */
         this.logout();
     },

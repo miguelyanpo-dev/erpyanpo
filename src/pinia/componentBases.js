@@ -6,8 +6,8 @@ import { getInheritedConfiguration } from '@/_common/helpers/configuration/confi
 import plugin832d6f7a42c343f1a3ce9a678272f811 from '@/components/plugins/plugin-832d6f7a-42c3-43f1-a3ce-9a678272f811/ww-config.js';
 import plugin69d4a5bb09a34f3da94e667c21c057eb from '@/components/plugins/plugin-69d4a5bb-09a3-4f3d-a94e-667c21c057eb/ww-config.js';
 import plugin66a79c9870e74bc4885920776b024ec2 from '@/components/plugins/plugin-66a79c98-70e7-4bc4-8859-20776b024ec2/ww-config.js';
-import plugin97e7b1aef88a4697849cee56ab49bb48 from '@/components/plugins/plugin-97e7b1ae-f88a-4697-849c-ee56ab49bb48/ww-config.js';
 import plugine93a2dfd9b19473eb445c666fed4e14a from '@/components/plugins/plugin-e93a2dfd-9b19-473e-b445-c666fed4e14a/ww-config.js';
+import plugin97e7b1aef88a4697849cee56ab49bb48 from '@/components/plugins/plugin-97e7b1ae-f88a-4697-849c-ee56ab49bb48/ww-config.js';
 import plugin2bd1c68831c5443eae2559aa5b6431fb from '@/components/plugins/plugin-2bd1c688-31c5-443e-ae25-59aa5b6431fb/ww-config.js';
 import pluginfdf6b6679515408687ef6042fc6f20fb from '@/components/plugins/plugin-fdf6b667-9515-4086-87ef-6042fc6f20fb/ww-config.js';
 import plugin9c40819b4a8f468f9ba54b9699f3361f from '@/components/plugins/plugin-9c40819b-4a8f-468f-9ba5-4b9699f3361f/ww-config.js';
@@ -60,8 +60,8 @@ export const useComponentBasesStore = defineStore('componentBases', () => {
     configurations = {'plugin-832d6f7a-42c3-43f1-a3ce-9a678272f811': getInheritedConfiguration({ ...plugin832d6f7a42c343f1a3ce9a678272f811, name: 'plugin-832d6f7a-42c3-43f1-a3ce-9a678272f811' }),
 'plugin-69d4a5bb-09a3-4f3d-a94e-667c21c057eb': getInheritedConfiguration({ ...plugin69d4a5bb09a34f3da94e667c21c057eb, name: 'plugin-69d4a5bb-09a3-4f3d-a94e-667c21c057eb' }),
 'plugin-66a79c98-70e7-4bc4-8859-20776b024ec2': getInheritedConfiguration({ ...plugin66a79c9870e74bc4885920776b024ec2, name: 'plugin-66a79c98-70e7-4bc4-8859-20776b024ec2' }),
-'plugin-97e7b1ae-f88a-4697-849c-ee56ab49bb48': getInheritedConfiguration({ ...plugin97e7b1aef88a4697849cee56ab49bb48, name: 'plugin-97e7b1ae-f88a-4697-849c-ee56ab49bb48' }),
 'plugin-e93a2dfd-9b19-473e-b445-c666fed4e14a': getInheritedConfiguration({ ...plugine93a2dfd9b19473eb445c666fed4e14a, name: 'plugin-e93a2dfd-9b19-473e-b445-c666fed4e14a' }),
+'plugin-97e7b1ae-f88a-4697-849c-ee56ab49bb48': getInheritedConfiguration({ ...plugin97e7b1aef88a4697849cee56ab49bb48, name: 'plugin-97e7b1ae-f88a-4697-849c-ee56ab49bb48' }),
 'plugin-2bd1c688-31c5-443e-ae25-59aa5b6431fb': getInheritedConfiguration({ ...plugin2bd1c68831c5443eae2559aa5b6431fb, name: 'plugin-2bd1c688-31c5-443e-ae25-59aa5b6431fb' }),
 'plugin-fdf6b667-9515-4086-87ef-6042fc6f20fb': getInheritedConfiguration({ ...pluginfdf6b6679515408687ef6042fc6f20fb, name: 'plugin-fdf6b667-9515-4086-87ef-6042fc6f20fb' }),
 'plugin-9c40819b-4a8f-468f-9ba5-4b9699f3361f': getInheritedConfiguration({ ...plugin9c40819b4a8f468f9ba54b9699f3361f, name: 'plugin-9c40819b-4a8f-468f-9ba5-4b9699f3361f' }),
