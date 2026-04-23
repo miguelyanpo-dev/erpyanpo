@@ -17,8 +17,8 @@ import plugin_9c40819b_4a8f_468f_9ba5_4b9699f3361f from '@/components/plugins/pl
 import { computed, reactive } from 'vue';
 import { useBackTableViewsStore } from '@/pinia/backTableViews.js';
 import { useBackAuthStore } from '@/pinia/backAuth.js';
+import { getRuntimeEnvironment } from '@/helpers/frontEnv.js';
 import { useEnvVariablesStore } from '@/pinia/envVariables.js';
-import { resolveEnvironmentFromEnvVariables } from '@/helpers/frontEnv.js';
 
 export default {
     ...services,
@@ -199,10 +199,7 @@ wwLib.wwPluginHelper.registerPlugin('plugin-9c40819b-4a8f-468f-9ba5-4b9699f3361f
     }),
 
     getEnvironment() {
-        if (wwLib.manager) return 'editor';
-
-        const envVariablesStore = useEnvVariablesStore(wwLib.$pinia);
-        return resolveEnvironmentFromEnvVariables(envVariablesStore.values);
+        return getRuntimeEnvironment();
     },
 
     useBaseTag() {
